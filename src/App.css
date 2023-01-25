@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* notesAPP */
+.delete {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.addnote {
+  width: 20rem;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.addnote input {
+  background-color: rgb(250, 245, 245);
+  border: none;
+  border-radius: 0;
+}
+
+.addnote input:focus {
+  background-color: rgb(250, 245, 245);
+  border: none;
+  box-shadow: none;
+}
+
+.addnote textarea:focus {
+  background-color: rgb(250, 245, 245);
+  border: none;
+  box-shadow: none;
+}
+
+.addnote textarea {
+  background-color: rgb(250, 245, 245);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.textNotes textarea {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: black;
+  border-radius: 0;
+  font-size: .7rem;
+}
+
+.textNotes textarea:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: black;
+  border-radius: 0;
+}
+
+
+.title {
+  font-size: .9rem;
+  font-weight: 700;
+
+}
+
+
+.load {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  background-color: rgb(233, 173, 218);
+  font-size: 1rem;
+  padding: .2rem 1rem;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+}
+
+.allData {
+  width: 100%;
+
+  margin-top: 3rem;
+}
+
+.notesBox {
+
+  color: black;
+  height: 11rem;
+  padding: 1rem;
+  position: relative;
+  margin: 1rem 0;
+  background-color: pink;
+}
+
+.delete {
+  position: absolute;
+  top: .7rem;
+  right: 1rem;
+}
+
+
+@media(max-width:380px) {
+  .addnote {
+    width: 17rem;
+  }
+}
+
+@media(max-width:320px) {
+  .addnote {
+    width: 15rem;
+  }
+}
